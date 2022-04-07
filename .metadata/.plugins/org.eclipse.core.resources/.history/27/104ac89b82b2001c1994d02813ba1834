@@ -1,0 +1,6 @@
+package com.shakil;
+
+public class Studnts {
+	String name ; 
+	int rollNum ; 
+}

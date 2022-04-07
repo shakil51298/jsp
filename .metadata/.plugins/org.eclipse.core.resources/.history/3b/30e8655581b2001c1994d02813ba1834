@@ -1,0 +1,24 @@
+package com.shakil;
+
+public class Studnts {
+	String name;
+	int roolNum ;
+	String phonenumber ; 
+	String fName ; 
+	String MName ; 
+	String Desc ; 
+	// getters and setters or you can say Bin
+	public Studnts(String name, int roolNum, int phonenumber, String fName, String mName, String desc) {
+		super();
+		this.name = name;
+		this.roolNum = roolNum;
+		this.phonenumber = phonenumber;
+		this.fName = fName;
+		MName = mName;
+		Desc = desc;
+	}
+	
+
+//	constructor
+	
+}

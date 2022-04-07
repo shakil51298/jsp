@@ -1,0 +1,9 @@
+package com.shakil;
+
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+
+@WebServlet("/addAlien")
+public class MyServlet extends HttpServlet {
+
+}

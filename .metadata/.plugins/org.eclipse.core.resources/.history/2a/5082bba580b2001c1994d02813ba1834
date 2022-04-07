@@ -1,0 +1,25 @@
+package com.shakil;
+
+public class Studnts {
+	String name;
+	int roolNum ;
+	// getters and setters or you can say Bin
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getRoolNum() {
+		return roolNum;
+	}
+
+	public void setRoolNum(int roolNum) {
+		this.roolNum = roolNum;
+	}
+
+//	constructor
+	
+}

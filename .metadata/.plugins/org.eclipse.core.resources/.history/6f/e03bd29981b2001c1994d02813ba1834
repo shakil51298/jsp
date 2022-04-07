@@ -1,0 +1,72 @@
+package com.shakil;
+
+public class Studnts {
+	String name;
+	int roolNum;
+	String phonenumber;
+	String fName;
+	String MName;
+	String Desc;
+	// getters and setters or you can say Bin
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getRoolNum() {
+		return roolNum;
+	}
+
+	public void setRoolNum(int roolNum) {
+		this.roolNum = roolNum;
+	}
+
+	public String getPhonenumber() {
+		return phonenumber;
+	}
+
+	public void setPhonenumber(String phonenumber) {
+		this.phonenumber = phonenumber;
+	}
+
+	public String getfName() {
+		return fName;
+	}
+
+	public void setfName(String fName) {
+		this.fName = fName;
+	}
+
+	public String getMName() {
+		return MName;
+	}
+
+	public void setMName(String mName) {
+		MName = mName;
+	}
+
+	public String getDesc() {
+		return Desc;
+	}
+
+	public void setDesc(String desc) {
+		Desc = desc;
+	}
+
+//	constructor
+
+	public Studnts(String name2, int roolNum2, String string, String fName2, String mName2, String desc2) {
+		// TODO Auto-generated constructor stub
+		super();
+		this.name = name;
+		this.roolNum = roolNum;
+		this.phonenumber = phoneNumber;
+		this.fName = fName;
+		this.MName = MName;
+		this.Desc = Desc;
+	}
+}

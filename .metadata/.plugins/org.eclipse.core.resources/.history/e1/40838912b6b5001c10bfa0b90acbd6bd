@@ -1,0 +1,41 @@
+<%@page import="java.sql.*"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	String sid = request.getParameter("student_id");
+	String cn_name = request.getParameter("cn_name");
+	String En_name = request.getParameter("English_name");
+	String age = request.getParameter("age");
+	try {
+		Class.forName("com.mysql.jdbc.Driver");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/login", "root", "");
+		PreparedStatement ps = conn.prepareStatement("insert into Students_Infromation(sid, cn_name, en_name, age) values(?,?,?,?);");
+		ps.setString(1,sid);
+	    ps.setString(2,cn_name);
+	    ps.setString(3, En_name); 
+	    ps.setString(4, age);
+	    int x = ps.executeUpdate();
+		if(x > 0){
+			out.println("Registration successfull");
+		}
+		else{
+			out.println("Registration Faield!........");
+		}
+	} catch (Exception e) {
+		out.print("printing from here: " + e);
+	}
+	
+	%>
+	<sql:setDataSource var="db" driver="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/login" user="root" password="" />
+	
+</body>
+</html>

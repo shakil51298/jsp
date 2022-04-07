@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <!-- <servlet>
+  	<servlet-name>abc</servlet-name>
+  	<servlet-class>com.shakil.AddServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>abc</servlet-name>
+  	<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>pqr</servlet-name>
+  	<servlet-class>com.shakil.SqServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>pqr</servlet-name>
+  	<url-pattern>/Sq</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>sh</servlet-name>
+  	<servlet-class>com.shakil.MinusServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>sh</servlet-name>
+  	<url-pattern>/minus</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>division</servlet-name>
+  	<servlet-class>com.shakil.DvServlet</servlet-class>
+  	
+  	<init-param>
+  	<param-name>name</param-name>
+  	<param-value>Khalid Hossain</param-value>
+  	</init-param>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>division</servlet-name>
+  	<url-pattern>/dv</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ctx</servlet-name>
+  	<servlet-class>com.shakil.ContextServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ctx</servlet-name>
+  	<url-pattern>/ContextServlet</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+  	<param-name>name</param-name>
+  	<param-value>Md Khalid Hossain</param-value>
+  </context-param>
+  
+   <context-param>
+  	<param-name>Phone</param-name>
+  	<param-value>Iphone 11</param-value>
+  </context-param>
+   -->
+  
+</web-app>

@@ -1,0 +1,31 @@
+package com.shakil;
+
+public class Studnts {
+	String name ; 
+	int rollNum ;
+	//setter and getters
+	
+// constructors
+	public Studnts(String name2, int rollNum2) {
+		// TODO Auto-generated constructor stub
+		super();
+		this.name = name;
+		this.rollNum = rollNum;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getRollNum() {
+		return rollNum;
+	}
+
+	public void setRollNum(int rollNum) {
+		this.rollNum = rollNum;
+	} 
+}

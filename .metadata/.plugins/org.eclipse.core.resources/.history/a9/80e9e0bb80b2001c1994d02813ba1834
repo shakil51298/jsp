@@ -1,0 +1,11 @@
+package com.shakil;
+
+public class Studnts {
+	String name;
+	int roolNum ;
+	// getters and setters or you can say Bin
+	
+
+//	constructor
+	
+}

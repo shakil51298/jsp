@@ -1,0 +1,15 @@
+package com.shakil;
+
+public class Studnts {
+	String name;
+	int roolNum ;
+	int phonenumber ; 
+	String fName ; 
+	String MName ; 
+	String Desc ; 
+	// getters and setters or you can say Bin
+	
+
+//	constructor
+	
+}

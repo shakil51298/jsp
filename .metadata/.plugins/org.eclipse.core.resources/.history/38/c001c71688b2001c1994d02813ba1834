@@ -1,0 +1,15 @@
+package com.shakil;
+
+public class Studnts {
+	String name ; 
+	int rollNum ;
+	//setter and getters
+	
+// constructors
+	public Studnts(String name2, int rollNum2) {
+		// TODO Auto-generated constructor stub
+		super();
+		this.name = name;
+		this.rollNum = rollNum;
+	}
+}
